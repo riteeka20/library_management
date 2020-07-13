@@ -1,0 +1,89 @@
+.upper{
+	font-family: sans-serif;
+    padding: 50px 150px;
+    padding-bottom:100px !important;
+    color:white;
+    margin:0 -215px;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("library.jpg");
+	background-size: cover;
+}
+.namepart{
+	margin-top:-150px;
+	color:white;
+	margin-bottom: 110px;
+
+}
+form h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.btn1{
+    width: 20%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    float:right;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 100px 10px 50px 10px;
+}
+
+.btn1:hover{
+    background-color:#4caf50;
+    color: black;
+    transition: 1s;
+}
+.btn2{
+	width:8% !important;
+	border: 2px solid red !important;
+	margin: -140px -300px 0 0  !important;
+}
+.btn2:hover{
+    background-color:red !important;
+}
+input.bttn2{
+	width: 8%;
+	border: 2px solid red !important;
+	margin: -288px -80px 0 0;
+	
+}
+input.bttn2:hover{
+	background-color:red
+}
+.btn1:focus,.bttn2:focus,.btn2:focus{
+	outline: none;
+}
+hr.myhr{
+	border: 8px solid #4caf50;
+	margin: 0 -215px 40px -215px;
+	
+}
+.msgpart{
+	margin: 373px 10px -440px 10px;
+	color:green;
+}
+hr.msgpart{
+	margin-top:456px;
+	margin-bottom: -431px;
+}
+div.marginbtm{
+	padding-bottom: 200px !important;
+}
+.frm{
+	margin-left: -220px;
+}
+
+.addpart{
+	margin: 50px 10px 0 0;
+}
+div.namepartad{
+	margin: 164px 0 -194px 0;
+	color:white;
+}
+.frm input{
+	margin: 165px 14px 0 10px;
+}
+
+

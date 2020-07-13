@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link rel="stylesheet" href="log.css">
+
+<style>
+body{
+    font-family: sans-serif;
+    /* background: url(background.jpg) no-repeat ; */
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("library.jpg");
+}
+
+</style>
+</head>
+<body >
+
+ 
+    <div class="loginBox">
+        <form action="user" method="post">
+        <h1>User Login</h1>   
+                <div class="textBox">
+                <input  type="text" placeholder="Username" name="username" value="" required="required" id="logUserName">
+            </div>
+            <div class="textBox">
+                <input type="password" placeholder="Password" name="password" value="" id="passWord">
+            </div>
+            <input type="submit" class="btn" value="Submit" name="sub"  id="logInBtn">
+            <input type="reset" id="rstBtn" class="btn rst">
+            </form>
+    </div>
+    
+    <br>
+    <div class="signupMsg">
+		<form action="user" method="post" >
+		
+		<p>New to library ? </p>
+		<input class="btn " value="Signup" name="sub" type="submit">
+		</form>
+	</div>
+</body>
+</html>
+
