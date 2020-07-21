@@ -6,6 +6,7 @@ Simple J2SE application for library management
 <li>CSS</li>
 <li>Bootstrap</li>
 <li>Servlet</li>
+<li>JDBC</li>
 <li>MySQL</li>
 
 ## Functions: 
